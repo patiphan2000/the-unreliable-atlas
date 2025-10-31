@@ -109,7 +109,12 @@ const EuropeMap = () => {
             countries = selectedCountries.filter(name => name !== countryName);
         }
         else {
-            countries = [...selectedCountries, countryName]
+            if (selectedCountries.length < n) {
+                countries = [...selectedCountries, countryName]
+            }
+            else {
+                return
+            }
         }
         countries = countries.filter(obj => Boolean)
         // Update select options
@@ -140,7 +145,12 @@ const EuropeMap = () => {
             countries = selectedCountries.filter(name => name !== countryName);
         }
         else {
-            countries = [...selectedCountries, countryName]
+            if (selectedCountries.length < n) {
+                countries = [...selectedCountries, countryName]
+            }
+            else {
+                return
+            }
         }
         countries = countries.filter(obj => Boolean)
         if (countries.length === 0) {
