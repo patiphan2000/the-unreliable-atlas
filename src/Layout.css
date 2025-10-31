@@ -1,0 +1,64 @@
+/* src/Layout.css */
+
+/* --- The Modal Overlay --- */
+.modal-overlay {
+    position: fixed; /* Sits on top of the page content */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensures it's on top of everything */
+}
+
+/* --- The Modal Panel --- */
+.modal-panel {
+    font-family: 'Times New Roman';
+    width: 500px;
+    max-width: 90%;
+    background-color: #C0C0C0; /* Classic gray */
+    border: 2px solid;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    box-shadow: 6px 6px 0px #000000;
+    padding: 0; /* No padding, the title bar and content will handle it */
+}
+
+/* --- The Title Bar --- */
+.modal-title-bar {
+    background-color: #000080; /* Classic dark blue */
+    color: white;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --- The Close Button in the Title Bar --- */
+.modal-close-button {
+    /* Reuse the retro button style! */
+    background-color: #C0C0C0;
+    border: 2px solid;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    font-family: 'monospace';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-close-button:active {
+    border-color: #808080 #FFFFFF #FFFFFF #808080;
+    transform: translate(1px, 1px);
+}
+
+/* --- The Content Area --- */
+.modal-content {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,224 @@
+[
+    {
+        "countries": ["Ireland", "Iceland"],
+        "selected_text": "two islands with no native snakes",
+        "others_text": "not an island or have native snakes",
+        "fact_md": "Ireland and Iceland are the two main European islands with no native snakes. This absence is due to their geographic isolation and climate."
+    },
+    {
+        "countries": ["Ireland", "Iceland"],
+        "selected_text": "countries in europe with name starting with `I` and end with `Land`",
+        "others_text": "countries with name not starting with `I` and Italy",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Belarus", "Ukraine"],
+        "selected_text": "countries with an extreamly high radioactive contaminated areas",
+        "others_text": "countries without an extreamly high radioactive contaminated areas",
+        "fact_md": "[The Chernobyl Exclusion Zone](https://en.wikipedia.org/wiki/Chernobyl_exclusion_zone) is a shared territory, extending into both Ukraine and Belarus, though the Chernobyl Nuclear Power Plant itself is in Ukraine."
+    },
+    {
+        "countries": ["Czech Republic", "Austria"],
+        "selected_text": "countries where throwing someone out of a window was a popular political tool",
+        "others_text": "countries where they not throwing people out of a window in politic",
+        "fact_md": ""
+    },
+    {
+        "countries": ["United Kingdom", "Iceland"],
+        "selected_text": "countries that have been to war with each others bacause of fishing",
+        "others_text": "countries that never have been to war with each others bacause of fishing",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Finland", "Estonia"],
+        "selected_text": "countries whos dominated in a competitive wife carrying sport",
+        "others_text": "",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Czech Republic", "Slovakia"],
+        "selected_text": "countries where men playfully whip women in Easter as a tradition",
+        "others_text": "",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Denmark", "Sweden"],
+        "selected_text": "countries that have fought against each other over 30 times",
+        "others_text": "",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Norway", "Sweden"],
+        "selected_text": "countries that use `Scandinavian mile`",
+        "others_text": "",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Italy", "Switzerland"],
+        "selected_text": "countries where Matterhorn located in",
+        "others_text": "",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Bulgaria", "Romania"],
+        "selected_text": "southeastern europe countries that have coastline but didn't use Euro as a currency",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Croatia", "Slovenia"],
+        "selected_text": "southeastern european countries with coastline that officially using the Euro",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Albania", "Turkey"],
+        "selected_text": "southeastern EU candidates with a coastline that are also in NATO",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Spain", "Portugal"],
+        "selected_text": "countries in Iberian Peninsula that officially using the Euro",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Denmark", "Sweden"],
+        "selected_text": "nordic countries that are EU member but not using the Euro",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Norway", "Iceland"],
+        "selected_text": "non EU member nordic countries",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Ireland", "United Kingdom"],
+        "selected_text": "countries that are in the British Isles",
+        "others_text": "countries that are not in the British Isles",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Belgium", "Netherlands"],
+        "selected_text": "countries that are part of Benlux Union and has a coastline",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Luxembourg"],
+        "selected_text": "countries that are part of Benlux Union but does not have a coastline",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Czech Republic", "Hungary"],
+        "selected_text": "central european countries that neither using the Euro or have a coastline",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Germany", "Slovenia"],
+        "selected_text": "central european countries that using the Euro and also have a coastline",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Armenia", "Belarus"],
+        "selected_text": "non EU member eastern european countries with no coastline",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Azerbaijan", "Russia"],
+        "selected_text": "non EU member eastern european countries with a coastline",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Georgia", "Ukraine"],
+        "selected_text": "EU member candidate in eastern european that have a coastline",
+        "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["San Marino", "Vatican City"],
+        "selected_text": "independent microstate located entirely within Italy",
+        "others_text": "country, state and microstate outside Italy and Italy",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Norway"],
+        "selected_text": "countries that drinks the most Pepsi Max per capita in the world",
+        "others_text": "countries that don't drink as much Pepsi Max",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Albania"],
+        "selected_text": "country where you nod for 'no' and shake your head for 'yes'",
+        "others_text": "countries where nodding means 'yes' and shaking your head means 'no'",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Switzerland"],
+        "selected_text": "illegal to own only one guinea pig",
+        "others_text": "not illegal to own only one guinea pig",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Austria"],
+        "selected_text": "country that people often got confused with Australia",
+        "others_text": "definiately not Australia",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Belarus"],
+        "selected_text": "country that you can still get a death penalty",
+        "others_text": "countries that you will probably not get a death penalty",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Netherlands"],
+        "selected_text": "country where population of bicycle exceed population of human",
+        "others_text": "countries where population of bicycle does not exceed population of human",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Belgium"],
+        "selected_text": "had a physicist proposed The Big Bang theory",
+        "others_text": "never had a physicist proposed, The Big Bang theory",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Bosnia and Herzegovina"],
+        "selected_text": "country with three presidents at the same time",
+        "others_text": "countries with less than three presidents at the same time",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Croatia"],
+        "selected_text": "country that invented necktie",
+        "others_text": "countries that did not invent the necktie",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Cyprus"],
+        "selected_text": "country that has cat crisis",
+        "others_text": "country that did not have cat crisis",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Estonia"],
+        "selected_text": "country that adopt nationwide online voting",
+        "others_text": "countries that have not adopt nationwide online voting",
+        "fact_md": ""
+    },
+    {
+        "countries": ["France"],
+        "selected_text": "country where you can legally marry a dead person",
+        "others_text": "countries where you CANNOT legally marry a dead person",
+        "fact_md": ""
+    }
+]

@@ -1,0 +1,37 @@
+/* src/Layout.css */
+
+.retro-button {
+  /* Font and Sizing */
+  font-family: 'MS Sans Serif', Arial, sans-serif;
+  font-size: 16px;
+  padding: 8px 16px;
+  color: black;
+  
+  /* The "Raised" Look */
+  background-color: #C0C0C0; /* Classic Windows gray */
+  border: 2px solid;
+  border-color: #FFFFFF #808080 #808080 #FFFFFF; /* top, right, bottom, left */
+  
+  /* No modern fluff */
+  border-radius: 0;
+  box-shadow: none;
+  
+  cursor: pointer;
+}
+
+/* Hover State - Optional, but nice for feedback */
+.retro-button:hover {
+  /* A slightly darker gray can indicate focus */
+  background-color: #b9b9b9;
+}
+
+/* The "Pressed In" Look - This is the magic! */
+.retro-button:active {
+  background-color: #a0a0a0;
+  
+  /* Reverse the border colors to look sunken */
+  border-color: #808080 #FFFFFF #FFFFFF #808080;
+  
+  /* Push the text down and right to complete the illusion */
+  transform: translate(1px, 1px);
+}

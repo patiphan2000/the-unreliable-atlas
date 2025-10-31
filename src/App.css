@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.country {
+  cursor: pointer;
+  transition: fill 0.2s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.country:hover {
+  background-color: lightblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-container-auto-margin {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; /* Optional: to vertically align items */
+  /* border: 1px solid #ccc; */
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.legend-text {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.push-right {
+  margin-left: auto;
+}
+
+.square-button {
+  width: 25px;
+  height: 25px;
+  
+  /* The color you set in your component will be the inner part */
+  background-color: #f00; /* This acts as a default/example color */
+  
+  /* --- The Retro Framing --- */
+  /* This creates the beveled, "raised" edge */
+  border: 3px solid;
+  border-color: #FFFFFF #808080 #808080 #FFFFFF; /* top, right, bottom, left */
+  
+  cursor: pointer;
+  margin-right: 5px;
+  
+  /* Make sure the border is included in the total size */
+  box-sizing: border-box; 
+}
+
+/* The "Pressed In" Look */
+.square-button:active {
+  /* Reverse the border colors to look sunken */
+  border-color: #808080 #FFFFFF #FFFFFF #808080;
+  
+  /* A subtle transform to complete the illusion */
+  transform: translate(1px, 1px);
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    /* This moves the image by its full width to the left */
+    background-position: -1500px 0;
   }
+}
+
+.animated-background {
+  background-image: url('./assets/background.png'); /* Path to your image */
+  animation: slide 60s linear infinite; /* Adjust 60s to control the speed */
+}
+
+.main-content-retro {
+  font-family: 'VT323', 'MS Sans Serif', Arial, sans-serif; /* Fallback fonts */
+  /* color: #000000; Pure black text was standard */
+  /* --- Pixelated Drop Shadow --- */
+  box-shadow: 6px 6px 0px #000000;
+
+  /* Set a base color for the "paper" */
+  background-color: #e8e8e8; /* A slightly off-white, grayish color */
+  position: relative; /* Needed for the ::before pseudo-element */
+  z-index: 1; /* Ensures content stays above the grain overlay */
+  overflow: hidden; /* Keeps the grain inside the beveled border */
+}
+
+/* Style the headers for extra authenticity */
+.main-content-retro h1 {
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #000080; /* A classic dark navy blue */
+  text-decoration: underline;
+}
+
+/* The grain overlay */
+.main-content-retro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* Apply the SVG filter */
+  filter: url(#grainy);
+
+  opacity: 0.15; /* Adjust for more or less intense grain */
+  z-index: -1; /* Place it behind the content */
+}
+
+/* src/Layout.css */
+
+.retro-button {
+  /* Font and Sizing */
+  /* font-family: 'MS Sans Serif', Arial, sans-serif; */
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-size: 16px;
+  padding: 8px 16px;
+  color: black;
+  
+  /* The "Raised" Look */
+  background-color: #C0C0C0; /* Classic Windows gray */
+  border: 2px solid;
+  border-color: #FFFFFF #808080 #808080 #FFFFFF; /* top, right, bottom, left */
+  
+  /* No modern fluff */
+  border-radius: 0;
+  box-shadow: none;
+  
+  cursor: pointer;
+}
+
+/* Hover State - Optional, but nice for feedback */
+.retro-button:hover {
+  /* A slightly darker gray can indicate focus */
+  background-color: #b9b9b9;
+}
+
+/* The "Pressed In" Look - This is the magic! */
+.retro-button:active {
+  background-color: #a0a0a0;
+  
+  /* Reverse the border colors to look sunken */
+  border-color: #808080 #FFFFFF #FFFFFF #808080;
+  
+  /* Push the text down and right to complete the illusion */
+  transform: translate(1px, 1px);
+}
+
+.retro-link {
+  font-family: 'Times New Roman', serif;
+  color: #0000FF; /* Classic hyperlink blue */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* For extra authenticity, make visited links purple! */
+.retro-link:visited {
+  color: #800080; /* Classic visited purple */
 }
