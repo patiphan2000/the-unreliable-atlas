@@ -58,7 +58,7 @@ const EuropeMap = () => {
     ]
 
     useEffect(() => {
-        d3.json('data/europe.topojson').then(data => {
+        d3.json('tree/master/src/data/europe.topojson').then(data => {
         const europe = feature(data, data.objects.europe);
         setMapData(europe);
         });
