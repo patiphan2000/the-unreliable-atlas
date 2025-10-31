@@ -22,14 +22,14 @@ const getLegendTexts = (countries) => {
         if (countries.length === 1) { // only one country
             return [{
                 selected_text: lastCountry,
-                others_text: "countries in europe that is not " + lastCountry,
+                others_text: "not " + lastCountry,
                 fact_md: "",
             }]
         }
         const selectedLegendText = countries.slice(0, -1).join(', ') + " and " + lastCountry
         return [{
             selected_text: selectedLegendText,
-            others_text: "countries in europe that is not " + selectedLegendText,
+            others_text: "not " + selectedLegendText,
             fact_md: "",
         }]
     }
