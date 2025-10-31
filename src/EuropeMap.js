@@ -216,7 +216,7 @@ const EuropeMap = () => {
         )}
         <svg ref={svgRef} width={800} height={580} style={{ 
             border: '1px solid #ccc', 
-            backgroundColor: (isOcean) ? '#017b92':'white'
+            backgroundColor: (isOcean) ? 'blue':'white'
         }} 
         onClick={() => {
             if (selectedCountries.length <= 0 & legendColor==='green') {
