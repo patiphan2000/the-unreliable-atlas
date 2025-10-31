@@ -223,7 +223,7 @@ const EuropeMap = () => {
                 setIsOcean(true)
                 setLegendData([
                     { color: legendColor, label: 'land' },
-                    { color: '#017b92', label: 'ocean' }
+                    { color: 'blue', label: 'ocean' }
                 ])
                 setSelectedCountries(allCountry)
             }
