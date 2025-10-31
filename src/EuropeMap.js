@@ -204,7 +204,7 @@ const EuropeMap = () => {
             {tooltipContent}
             </div>
         )}
-        <svg ref={svgRef} width={800} height={600} style={{ 
+        <svg ref={svgRef} width={800} height={580} style={{ 
             border: '1px solid #ccc', 
             backgroundColor: (isOcean) ? '#017b92':'white'
         }} 
