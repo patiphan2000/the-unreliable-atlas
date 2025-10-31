@@ -257,13 +257,13 @@ const EuropeMap = () => {
                         return '#9f9f9fff';
                     })(),
                     stroke: (() => {
-                        if (selectedCountries.includes(country.properties.NAME)) return 'gray';
+                        if (selectedCountries.includes(country.properties.NAME)) return 'black';
                         if (optionCountries.length === 0 & selectedCountries.length === 0) return '#747474ff';
                         if (optionCountries.includes(country.properties.NAME)) return '#747474ff';
                         return 'gray';
                     })(),
                     strokeWidth: (() => {
-                        if (selectedCountries.includes(country.properties.NAME)) return 0.2;
+                        if (selectedCountries.includes(country.properties.NAME)) return 0.5;
                         if (optionCountries.length === 0 & selectedCountries.length === 0) return 1.2;
                         if (optionCountries.includes(country.properties.NAME)) return 1.2;
                         return 0.2;
