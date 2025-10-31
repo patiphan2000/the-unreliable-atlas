@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/the-unreliable-atlas/static/css/main.5402e58d.css",
+    "main.js": "/the-unreliable-atlas/static/js/main.86b2c53d.js",
+    "static/js/453.913d6163.chunk.js": "/the-unreliable-atlas/static/js/453.913d6163.chunk.js",
+    "static/media/background.png": "/the-unreliable-atlas/static/media/background.878a8b0fc983d2031053.png",
+    "index.html": "/the-unreliable-atlas/index.html",
+    "main.5402e58d.css.map": "/the-unreliable-atlas/static/css/main.5402e58d.css.map",
+    "main.86b2c53d.js.map": "/the-unreliable-atlas/static/js/main.86b2c53d.js.map",
+    "453.913d6163.chunk.js.map": "/the-unreliable-atlas/static/js/453.913d6163.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5402e58d.css",
+    "static/js/main.86b2c53d.js"
+  ]
+}
