@@ -42,15 +42,21 @@
         "fact_md": ""
     },
     {
+        "countries": ["Slovenia", "Slovakia"],
+        "selected_text": "use russian flag with a badge",
+        "others_text": "didn't use russian flag",
+        "fact_md": ""
+    },
+    {
         "countries": ["Denmark", "Sweden"],
         "selected_text": "countries that have fought against each other over 30 times",
-        "others_text": "",
+        "others_text": "countries that never go to war over 30 times",
         "fact_md": ""
     },
     {
         "countries": ["Norway", "Sweden"],
         "selected_text": "countries that use `Scandinavian mile`",
-        "others_text": "",
+        "others_text": "countries that use normal distance measurement",
         "fact_md": ""
     },
     {
@@ -84,21 +90,15 @@
         "fact_md": ""
     },
     {
-        "countries": ["Denmark", "Sweden"],
-        "selected_text": "nordic countries that are EU member but not using the Euro",
-        "others_text": "others",
-        "fact_md": ""
-    },
-    {
         "countries": ["Norway", "Iceland"],
-        "selected_text": "non EU member nordic countries",
-        "others_text": "others",
+        "selected_text": "flag contains a cross, color red and blue",
+        "others_text": "flag do not contains a cross or color red and blue",
         "fact_md": ""
     },
     {
         "countries": ["Ireland", "United Kingdom"],
-        "selected_text": "countries that are in the British Isles",
-        "others_text": "countries that are not in the British Isles",
+        "selected_text": "countries that sometimes still use Imperial measurement system",
+        "others_text": "countries that use a better and more sensical measurement system",
         "fact_md": ""
     },
     {
@@ -111,6 +111,12 @@
         "countries": ["Luxembourg"],
         "selected_text": "countries that are part of Benlux Union but does not have a coastline",
         "others_text": "others",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Luxembourg", "Netherlands"],
+        "selected_text": "only different in flags is the shade of the colors",
+        "others_text": "flag have another distinguish features",
         "fact_md": ""
     },
     {
@@ -150,6 +156,12 @@
         "fact_md": ""
     },
     {
+        "countries": ["Switzerland", "Vatican City"],
+        "selected_text": "country with square flag",
+        "others_text": "country with normal shape flag",
+        "fact_md": ""
+    },
+    {
         "countries": ["Norway"],
         "selected_text": "countries that drinks the most Pepsi Max per capita in the world",
         "others_text": "countries that don't drink as much Pepsi Max",
@@ -159,6 +171,12 @@
         "countries": ["Albania"],
         "selected_text": "country where you nod for 'no' and shake your head for 'yes'",
         "others_text": "countries where nodding means 'yes' and shaking your head means 'no'",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Albania"],
+        "selected_text": "country with a double-headed eagle in their flag",
+        "others_text": "country without a double-headed eagle in their flag",
         "fact_md": ""
     },
     {
@@ -181,8 +199,14 @@
     },
     {
         "countries": ["Netherlands"],
-        "selected_text": "country where population of bicycle exceed population of human",
-        "others_text": "countries where population of bicycle does not exceed population of human",
+        "selected_text": "country with more bicycle than human",
+        "others_text": "countries with more human than bicycle",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Netherlands"],
+        "selected_text": "country that have eaten their prime minister",
+        "others_text": "countries that haven't eaten their prime minister",
         "fact_md": ""
     },
     {
@@ -205,8 +229,8 @@
     },
     {
         "countries": ["Cyprus"],
-        "selected_text": "country that has cat crisis",
-        "others_text": "country that did not have cat crisis",
+        "selected_text": "country with flag that 100% represent the shape of their country",
+        "others_text": "country with flag that is not 100% represent the shape of their country",
         "fact_md": ""
     },
     {
@@ -219,6 +243,48 @@
         "countries": ["France"],
         "selected_text": "country where you can legally marry a dead person",
         "others_text": "countries where you CANNOT legally marry a dead person",
+        "fact_md": ""
+    },
+    {
+        "countries": ["France"],
+        "selected_text": "illegal to name a pig 'Napoleon'",
+        "others_text": "legal to name a pig 'Napoleon'",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Italy"],
+        "selected_text": "has a fountain that flows with free red wine",
+        "others_text": "don't have a fountain that flows with free red wine",
+        "fact_md": ""
+    },
+    {
+        "countries": ["United Kingdom"],
+        "selected_text": "illegal to fly a kite in public",
+        "others_text": "not illegal to fly a kite in public",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Denmark"],
+        "selected_text": "country where pig outnumbered people",
+        "others_text": "country where people outnumbered pig",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Monaco", "Poland"],
+        "selected_text": "flag contains only red and white horizontal stripes",
+        "others_text": "flag contains more than just red and white horizontal stripes",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Romania", "Moldova"],
+        "selected_text": "countries that share border and use almost the exact same flag",
+        "others_text": "do not share a border or use a completely different flag",
+        "fact_md": ""
+    },
+    {
+        "countries": ["Lithuania"],
+        "selected_text": "country with an official national perfume",
+        "others_text": "countries without an official national perfume",
         "fact_md": ""
     }
 ]
