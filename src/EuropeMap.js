@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import * as d3 from 'd3';
 import { feature } from 'topojson-client';
+import europeMapData from './data/europe.topojson'
 import legendTextData from './data/legend_master.json'
 import allCountry from './data/allCountry.json'
 
@@ -58,9 +59,9 @@ const EuropeMap = () => {
     ]
 
     useEffect(() => {
-        d3.json('tree/master/src/data/europe.topojson').then(data => {
-        const europe = feature(data, data.objects.europe);
-        setMapData(europe);
+        d3.json(europeMapData).then(data => {
+            const europe = feature(data, data.objects.europe);
+            setMapData(europe);
         });
     }, []);
 
@@ -315,6 +316,13 @@ const EuropeMap = () => {
                 </div>
             </div>
         </div>
+
+        {/* <div width="780px" height="20px" fill="red">
+            <p>D</p>
+            <p>D</p>
+            <p>D</p>
+            <p>D</p>
+        </div> */}
 
         </div>
     );
