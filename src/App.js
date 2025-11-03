@@ -110,14 +110,14 @@ function App() {
           <p>1. The general process of visualizing geographic data involves acquiring information, then plotted said data onto a map, which provides geographical context & insight.</p>
           <p>2. We do not do that here.</p>
           <p>3. Select any country, create the visualization first.</p>
-          <p>4. Then see what kind of data that your visualiarion can come from.</p>
+          <p>4. Then see what kind of data that your visualization can come from.</p>
           <button className="retro-button" onClick={closeInstructionModal} style={{ marginTop: '20px' }}>
             OK
           </button>
         </Modal>
         <Modal isOpen={isAboutModalOpen} onClose={closeAboutModal}>
           <h2>About this Project</h2>
-          <p>This project is a part of <i>PU Visualization Playground 2025</i>, inspired purely by the question, "Can I reverse the process of visualization?" without ever considering the usefulness of the result.</p>
+          <p>This project is a part of <i>PU Visualization Playground 2025</i>, inspired purely by the question, "Can I reverse the process of visualization?" and the intention to make it as a joke without ever considering the usefulness of the result.</p>
           <p>This project's format is highly experimental; it might come out as disorganized, disorienting, or borderline schizophrenic. I DO NOT CARE.</p>
           <p>Users should proceed with caution. Consultation with a professional geologist, historian, or any form of fact-checking may result in discrepancies between the information and reality, which could lead to questioning one's life decisions or spiraling into existential dread.</p>
           <p>The creator and any involved parties will not be held responsible for any physical, mental, or metaphorical damage, including injury or any form of death, that may or may not be caused by this website.</p>
